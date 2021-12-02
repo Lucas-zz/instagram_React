@@ -3,7 +3,7 @@ export default function Post() {
         <div class="post">
             <div class="topo">
                 <div class="usuario">
-                    <img src="assets/img/meowed.svg" />
+                    <img src="./assets/img/meowed.svg" />
                     meowed
                 </div>
                 <div class="acoes">
@@ -12,7 +12,7 @@ export default function Post() {
             </div>
 
             <div class="conteudo">
-                <img src="assets/img/gato-telefone.svg" />
+                <img src="./assets/img/gato-telefone.svg" />
             </div>
 
             <div class="fundo">
@@ -28,7 +28,7 @@ export default function Post() {
                 </div>
 
                 <div class="curtidas">
-                    <img src="assets/img/respondeai.svg" />
+                    <img src="./assets/img/respondeai.svg" />
                     <div class="texto">
                         Curtido por <strong>respondeai</strong> e <strong>outras 101.523 pessoas</strong>
                     </div>

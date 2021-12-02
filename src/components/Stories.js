@@ -14,7 +14,7 @@ export default function Stories() {
 
 
             <div class="setinha">
-                <img src="assets/img/Vector.svg" />
+                <img src="./assets/img/Vector.svg" />
             </div>
         </div>
     );
