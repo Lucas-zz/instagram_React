@@ -251,8 +251,12 @@ body {
 }
 
 .sidebar > .usuario .texto strong {
-  font-weight: 500;
+  font-weight: 400;
   color: #262626;
+}
+
+strong {
+  font-weight: 400;
 }
 
 .sidebar .sugestoes .titulo {
@@ -283,7 +287,7 @@ body {
 
 .sidebar .sugestoes .seguir {
   color: #139EF2;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .sidebar .sugestoes .sugestao .usuario .texto {

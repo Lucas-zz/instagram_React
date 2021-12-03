@@ -1,6 +1,6 @@
 import Sugestion from "./Sugestion";
 
-//user img
+//users img
 import badvibes from "../assets/img/bad.vibes.memes.svg";
 import chibird from "../assets/img/chibirdart.svg";
 import razoes from "../assets/img/razoesparaacreditar.svg";

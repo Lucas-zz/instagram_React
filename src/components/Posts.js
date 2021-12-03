@@ -1,14 +1,14 @@
 import Post from "./Post";
 
-//user
+//users
 import meowed from "../assets/img/meowed.svg";
 import barked from "../assets/img/barked.svg";
 
-//post image
+//posts image
 import cat from "../assets/img/gato-telefone.svg";
 import dog from "../assets/img/dog.svg"
 
-//user like post
+//users like post
 import respondeai from "../assets/img/respondeai.svg";
 import adorable_animals from "../assets/img/adorable_animals.svg"
 
