@@ -10,14 +10,11 @@ import ra from "../assets/img/respondeai.svg";
 import filo from "../assets/img/filomoderna.svg";
 import meme from "../assets/img/memeriagourmet.svg";
 
-const userImg = [nineGag, meowed, barked, nathan, wawa, ra, filo, meme];
-const nickname = ["9gag", "meowned", "barked", "nathanwpylestrangeplanet", "wawawicomics", "respondeai", "filomoderna", "memeriagourmet"];
-
 export default function Stories() {
     return (
         <div class="stories">
-            {nickname.map(name => (
-                <Story img={nineGag} name={name} />)
+            {user.map(a => (
+                <Story img={a.userImg} name={a.username} />)
             )}
             <div class="setinha">
                 <img src={arrow} />
@@ -25,3 +22,38 @@ export default function Stories() {
         </div>
     );
 }
+
+let user = [
+    {
+        username: "9gag",
+        userImg: nineGag,
+    },
+    {
+        username: "meowed",
+        userImg: meowed,
+    },
+    {
+        username: "barked",
+        userImg: barked,
+    },
+    {
+        username: "nathanwpylestrangeplanet",
+        userImg: nathan,
+    },
+    {
+        username: "wawawicomics",
+        userImg: wawa,
+    },
+    {
+        username: "respondeai",
+        userImg: ra,
+    },
+    {
+        username: "filomoderna",
+        userImg: filo,
+    },
+    {
+        username: "memeriagourmet",
+        userImg: meme,
+    },
+]

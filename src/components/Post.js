@@ -2,6 +2,7 @@ import user from "../assets/img/meowed.svg";
 import post from "../assets/img/gato-telefone.svg";
 import like from "../assets/img/respondeai.svg";
 
+
 export default function Post() {
     return (
         <div class="post">
