@@ -15,8 +15,11 @@ export default function Stories() {
     return (
         <div class="stories">
             {users.map(user => (
-                <Story img={user.img} name={user.name} />)
-            )}
+                <Story
+                    img={user.img}
+                    name={user.name}
+                />
+            ))}
             <div class="setinha">
                 <img src={arrow} />
             </div>

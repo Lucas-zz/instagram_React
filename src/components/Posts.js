@@ -1,3 +1,5 @@
+import Post from "./Post";
+
 //user
 import meowed from "../assets/img/meowed.svg";
 import barked from "../assets/img/barked.svg";
@@ -9,9 +11,6 @@ import dog from "../assets/img/dog.svg"
 //user like post
 import respondeai from "../assets/img/respondeai.svg";
 import adorable_animals from "../assets/img/adorable_animals.svg"
-
-
-import Post from "./Post";
 
 export default function Posts() {
     return (

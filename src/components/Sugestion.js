@@ -1,13 +1,11 @@
-import userImg from "../assets/img/bad.vibes.memes.svg"
-
-export default function Sugestion() {
+export default function Sugestion(props) {
     return (
         <div class="sugestao">
             <div class="usuario">
-                <img src={userImg} />
+                <img src={props.img} />
                 <div class="texto">
-                    <div class="nome">bad.vibes.memes</div>
-                    <div class="razao">Segue você</div>
+                    <div class="nome">{props.name}</div>
+                    <div class="razao">{props.reason}</div>
                 </div>
             </div>
 
