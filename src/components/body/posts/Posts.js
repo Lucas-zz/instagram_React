@@ -1,16 +1,16 @@
 import Post from "./Post";
 
 //users
-import meowed from "../assets/img/meowed.svg";
-import barked from "../assets/img/barked.svg";
+import meowed from "../../../assets/img/meowed.svg";
+import barked from "../../../assets/img/barked.svg";
 
 //posts image
-import cat from "../assets/img/gato-telefone.svg";
-import dog from "../assets/img/dog.svg"
+import cat from "../../../assets/img/gato-telefone.svg";
+import dog from "../../../assets/img/dog.svg"
 
 //users like post
-import respondeai from "../assets/img/respondeai.svg";
-import adorable_animals from "../assets/img/adorable_animals.svg"
+import respondeai from "../../../assets/img/respondeai.svg";
+import adorable_animals from "../../../assets/img/adorable_animals.svg"
 
 export default function Posts() {
     return (

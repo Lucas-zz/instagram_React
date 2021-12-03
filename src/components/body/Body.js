@@ -1,6 +1,6 @@
-import Posts from "./Posts";
-import Stories from "./Stories";
-import Sidebar from "./Sidebar";
+import Posts from "./posts/Posts";
+import Sidebar from "../sidebar/Sidebar";
+import Stories from "./stories/Stories";
 
 export default function Body() {
     return (

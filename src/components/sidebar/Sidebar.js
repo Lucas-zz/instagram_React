@@ -1,6 +1,7 @@
 import Sugestions from "./Sugestions";
 import User from "./User";
-import userImg from "../assets/img/catanacomics.svg"
+
+import userImg from "../../assets/img/catanacomics.svg"
 
 export default function Sidebar() {
     return (

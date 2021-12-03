@@ -1,10 +1,10 @@
-export default function Post(props) {
+export default function Post({ userImg, username, img, userLikeImg, userLike, qtLikes }) {
     return (
         <div class="post">
             <div class="topo">
                 <div class="usuario">
-                    <img src={props.userImg} alt={props.username} />
-                    <div class="nome">{props.username}</div>
+                    <img src={userImg} alt={username} />
+                    <div class="nome">{username}</div>
                 </div>
                 <div class="acoes">
                     <ion-icon name="ellipsis-horizontal"></ion-icon>
@@ -12,7 +12,7 @@ export default function Post(props) {
             </div>
 
             <div class="conteudo">
-                <img src={props.img} alt={props.username} />
+                <img src={img} alt={username} />
             </div>
 
             <div class="fundo">
@@ -28,9 +28,9 @@ export default function Post(props) {
                 </div>
 
                 <div class="curtidas">
-                    <img src={props.userLikeImg} alt={props.userLike} />
+                    <img src={userLikeImg} alt={userLike} />
                     <div class="texto">
-                        Curtido por <strong>{props.userLike}</strong> e <strong>outras {props.qtLikes} pessoas</strong>
+                        Curtido por <strong>{userLike}</strong> e <strong>outras {qtLikes} pessoas</strong>
                     </div>
                 </div>
             </div>
