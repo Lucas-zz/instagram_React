@@ -1,20 +1,21 @@
 import Story from "./Story";
 import arrow from "../assets/img/Vector.svg";
 
+// import das imagens
 import nineGag from "../assets/img/9gag.svg";
 import meowed from "../assets/img/meowed.svg";
 import barked from "../assets/img/barked.svg";
 import nathan from "../assets/img/nathanwpylestrangeplanet.svg";
-import wawa from "../assets/img/wawawicomics.svg";
-import ra from "../assets/img/respondeai.svg";
+import wawawi from "../assets/img/wawawicomics.svg";
+import respondeai from "../assets/img/respondeai.svg";
 import filo from "../assets/img/filomoderna.svg";
-import meme from "../assets/img/memeriagourmet.svg";
+import memeria from "../assets/img/memeriagourmet.svg";
 
 export default function Stories() {
     return (
         <div class="stories">
-            {user.map(a => (
-                <Story img={a.userImg} name={a.username} />)
+            {users.map(user => (
+                <Story img={user.img} name={user.name} />)
             )}
             <div class="setinha">
                 <img src={arrow} />
@@ -23,37 +24,37 @@ export default function Stories() {
     );
 }
 
-let user = [
+let users = [
     {
-        username: "9gag",
-        userImg: nineGag,
+        name: "9gag",
+        img: nineGag,
     },
     {
-        username: "meowed",
-        userImg: meowed,
+        name: "meowed",
+        img: meowed,
     },
     {
-        username: "barked",
-        userImg: barked,
+        name: "barked",
+        img: barked,
     },
     {
-        username: "nathanwpylestrangeplanet",
-        userImg: nathan,
+        name: "nathanwpylestrangeplanet",
+        img: nathan,
     },
     {
-        username: "wawawicomics",
-        userImg: wawa,
+        name: "wawawicomics",
+        img: wawawi,
     },
     {
-        username: "respondeai",
-        userImg: ra,
+        name: "respondeai",
+        img: respondeai,
     },
     {
-        username: "filomoderna",
-        userImg: filo,
+        name: "filomoderna",
+        img: filo,
     },
     {
-        username: "memeriagourmet",
-        userImg: meme,
+        name: "memeriagourmet",
+        img: memeria,
     },
 ]

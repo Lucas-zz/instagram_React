@@ -1,5 +1,5 @@
-import Body from "./Body";
-import Header from "./Header";
+import Body from "./components/Body";
+import Header from "./components/Header";
 
 export default function App() {
     return (
