@@ -4,10 +4,10 @@ import NavbarMobile from "./components/body/NavbarMobile";
 
 export default function App() {
     return (
-        <div class="main">
+        <>
             <Header />
             <Body />
             <NavbarMobile />
-        </div>
+        </>
     );
 }

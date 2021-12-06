@@ -226,6 +226,7 @@ body {
 }
 
 .sidebar {
+  height: fit-content;
   padding-top: 24px;
   position: sticky;
   top: 88px;
