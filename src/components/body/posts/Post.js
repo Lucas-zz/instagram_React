@@ -1,22 +1,22 @@
 export default function Post({ userImg, username, img, userLikeImg, userLike, qtLikes }) {
     return (
-        <div class="post">
-            <div class="topo">
-                <div class="usuario">
+        <div className="post">
+            <div className="topo">
+                <div className="usuario">
                     <img src={userImg} alt={username} />
-                    <div class="nome">{username}</div>
+                    <div className="nome">{username}</div>
                 </div>
-                <div class="acoes">
+                <div className="acoes">
                     <ion-icon name="ellipsis-horizontal"></ion-icon>
                 </div>
             </div>
 
-            <div class="conteudo">
+            <div className="conteudo">
                 <img src={img} alt={username} />
             </div>
 
-            <div class="fundo">
-                <div class="acoes">
+            <div className="fundo">
+                <div className="acoes">
                     <div>
                         <ion-icon name="heart-outline"></ion-icon>
                         <ion-icon name="chatbubble-outline"></ion-icon>
@@ -27,9 +27,9 @@ export default function Post({ userImg, username, img, userLikeImg, userLike, qt
                     </div>
                 </div>
 
-                <div class="curtidas">
+                <div className="curtidas">
                     <img src={userLikeImg} alt={userLike} />
-                    <div class="texto">
+                    <div className="texto">
                         Curtido por <strong>{userLike}</strong> e <strong>outras {qtLikes} pessoas</strong>
                     </div>
                 </div>

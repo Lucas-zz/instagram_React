@@ -14,9 +14,10 @@ import adorable_animals from "../../../assets/img/adorable_animals.svg"
 
 export default function Posts() {
     return (
-        <div class="posts">
+        <div className="posts">
             {posts.map(post => (
                 <Post
+                    key={post.id}
                     username={post.username}
                     userImg={post.userImg}
                     img={post.img}
@@ -31,6 +32,7 @@ export default function Posts() {
 
 let posts = [
     {
+        id: 1,
         username: "meowed",
         userImg: meowed,
         img: cat,
@@ -39,6 +41,7 @@ let posts = [
         likes: 101.523,
     },
     {
+        id: 2,
         username: "barked",
         userImg: barked,
         img: dog,
@@ -47,6 +50,7 @@ let posts = [
         likes: 99.159,
     },
     {
+        id: 3,
         username: "meowed",
         userImg: meowed,
         img: cat,

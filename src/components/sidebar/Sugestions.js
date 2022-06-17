@@ -9,14 +9,15 @@ import smallcutecats from "../../assets/img/smallcutecats.svg";
 
 export default function Sugestions() {
     return (
-        <div class="sugestoes">
-            <div class="titulo">
+        <div className="sugestoes">
+            <div className="titulo">
                 Sugestões para você
                 <div>Ver tudo</div>
             </div>
 
             {users.map(user => (
                 <Sugestion
+                    key={user.id}
                     img={user.img}
                     name={user.name}
                     reason={user.reason}
@@ -28,26 +29,31 @@ export default function Sugestions() {
 
 let users = [
     {
+        id: 1,
         name: "bad.vibes.memes",
         img: badvibes,
         reason: "Segue você",
     },
     {
+        id: 2,
         name: "chibirdart",
         img: chibird,
         reason: "Segue você",
     },
     {
+        id: 3,
         name: "razoesparaacreditar",
         img: razoes,
         reason: "Novo no Instagram",
     },
     {
+        id: 4,
         name: "adorable_animals",
         img: adorable_animals,
         reason: "Segue você",
     },
     {
+        id: 5,
         name: "smallcutecats",
         img: smallcutecats,
         reason: "Segue você",

@@ -1,10 +1,10 @@
 export default function Story({ img, name }) {
     return (
-        <div class="story">
-            <div class="imagem">
-                <img src={img} />
+        <div className="story">
+            <div className="imagem">
+                <img src={img} alt={name} />
             </div>
-            <div class="usuario">
+            <div className="usuario">
                 <span>{name}</span>
             </div>
         </div>
