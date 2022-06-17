@@ -1,6 +1,6 @@
 {
-  "homepage": "https://lucas-zz.github.io/Projeto_07_instagramReact",
-  "name": "projeto_07_instagramreact",
+  "name": "Instagram_React",
+  "author": "Lucas Azzolini Vieira",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
